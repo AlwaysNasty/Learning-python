@@ -14,6 +14,7 @@ def binary_search(list, item):
     return None
 
 
-my_list = [1, 3, 5, 7, 9, 12, 10, 11, 31]
+my_list = [1, 3, 5, 8, 9, 12, 10, 11, 31, 25]
+my_list = sorted(my_list)
 
-print(binary_search(my_list, 9))
+print(binary_search(my_list, 25))
