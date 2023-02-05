@@ -1,5 +1,3 @@
-print('hello world')
-
 age = 26
 name = 'Swaroop'
 print('Возраст {} -- {} лет.'.format(name, age))
@@ -19,7 +17,6 @@ while running:
     else:
         print('Нет, загаданное число немного меньше этого.')
 
-
 while True:
     s = input('Введите что-нибудь : ')
 
@@ -27,7 +24,6 @@ while True:
         break
     print('Длина строки:', len(s))
 print('Завершение')
-
 
 while True:
     text = input('enter text: ')
@@ -38,7 +34,6 @@ while True:
         print('malo blyad')
         continue
     print('norm blyad')
-
 
 #bubble sort
 
