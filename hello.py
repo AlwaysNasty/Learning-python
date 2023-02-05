@@ -36,7 +36,6 @@ while True:
     print('norm blyad')
 
 #bubble sort
-
 arr = [2,4,1,3,6,8,5,7,0,9]
 print(arr)
 
