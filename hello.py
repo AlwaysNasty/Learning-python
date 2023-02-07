@@ -36,7 +36,7 @@ while True:
     print('norm blyad')
 #################################################################
 #bubble sort
-arr = [2,4,1,3,6,8,5,7,0,9]
+arr = [9,8,7,6,5,4,3,2,1,0]
 print(arr)
 
 for i in range(len(arr)):
@@ -45,3 +45,18 @@ for i in range(len(arr)):
             arr[j], arr[j+1] = arr[j+1] , arr[j]
 
 print(arr)
+
+def outer_func():
+    x = 10
+    print(x)
+
+    def inner_func():
+        nonlocal x
+        x = 5
+
+    inner_func()
+    print(x)
+
+outer_func()
+
+
