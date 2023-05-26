@@ -8,8 +8,8 @@ firstshot = shots[0]
 max_different = 0
 
 for i in range(len(shots)-1):
-    if abs(shots[i + 1] - firstshot) > max_different:
-        max_different = abs(shots[i + 1] - firstshot)           #ищем максимальную разницу между соседними выстрелами
+    if (shots[i + 1] - firstshot) > max_different:
+        max_different = (shots[i + 1] - firstshot)           #ищем максимальную разницу между соседними выстрелами
     firstshot = shots[i + 1]
 
 print(max_different)
