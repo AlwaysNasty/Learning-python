@@ -20,5 +20,6 @@ def binary_search(list, item):
 
 my_list = [1, 3, 5, 8, 9, 12, 10, 11, 31, 25]
 my_list = sorted(my_list)
+print(my_list)
 
 print(binary_search(my_list, 25))
